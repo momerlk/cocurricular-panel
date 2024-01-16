@@ -1,0 +1,253 @@
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+nav {
+    background-color: #003366;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+
+li {
+    float: left;
+}
+
+a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    transition: border-bottom 0.3s ease;  /* Add a smooth transition for the underline effect */
+}
+
+a:hover {
+    border-bottom: 2px solid white;  /* Add an underline on hover */
+}
+
+header {
+    text-align: center;
+    padding: 20px;
+}
+
+h1 {
+    margin: 0;
+    font-size: 2.5em;
+}
+
+h2.subtitle {
+    color: #666;
+    margin-top: 5px;
+}
+
+.styled-table {
+    width: 80%;
+    margin: 20px auto;
+    border-collapse: collapse;
+    border: 1px solid #ddd;
+}
+
+.styled-table th, .styled-table td {
+    padding: 15px;
+    text-align: center;
+    border: 1px solid #ddd;
+}
+
+.styled-table th {
+    background-color: #003366;
+    color: #fff;
+}
+
+.tabs {
+    overflow: hidden;
+    background-color: #003366;
+}
+
+.tablinks {
+    background-color: #003366;
+    color: white;
+    float: left;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    padding: 14px 16px;
+    margin-right: 5px;
+}
+
+.tabcontent {
+    display: none;
+    padding: 20px;
+    border-top: 2px solid #003366;
+}
+
+.blue-button {
+    background-color: #003366;
+    color: white;
+    border: none;
+    padding: 10px 15px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin-top: 10px;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+
+
+/* Add this style for the navigation drawer overlay */
+.overlay {
+    height: 100%;
+    width: 0;
+    position: fixed;
+    z-index: 1;
+    left: 40;
+    top: 40;
+    background-color: rgba(0, 51, 102, 0.9);
+    overflow-x: hidden;
+    transition: 0.5s;
+    padding-top: 100px;
+}
+
+.overlay-content {
+    position: relative;
+    top: 25%;
+    width: 100%;
+    text-align: center;
+}
+
+.overlay a {
+    padding: 15px;
+    text-decoration: none;
+    font-size: 25px;
+    color: #fff;
+    display: block;
+    transition: 0.3s;
+}
+
+.overlay a:hover,
+.overlay a:focus {
+    color: #64B5F6;
+}
+
+.closebtn {
+    position: absolute;
+    top: 0;
+    right: 25px;
+    font-size: 36px;
+}
+
+/*  */
+
+
+/* Responsive Styles for News and Events Section */
+.news-container {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.news-item {
+    width: calc(50% - 20px);
+    margin: 10px;
+    box-sizing: border-box;
+}
+
+.news-item img {
+    width: 100%;
+}
+
+/* Media Query for Mobile Devices */
+@media screen and (max-width: 600px) {
+    .news-item {
+        width: 100%;
+    }
+}
+
+/* For Activities and Co Curricular Positions Page */
+
+.activity-table {
+    width: 90%;
+    margin: 20px auto;
+    border-collapse: collapse;
+    border: 1px solid #ddd;
+}
+
+.activity-table th, .activity-table td {
+    padding: 15px;
+    text-align: center;
+    border: 1px solid #ddd;
+}
+
+.activity-table th {
+    background-color: #003366;
+    color: #fff;
+}
+
+/* For Co Curricular Applications Page */
+
+.tabs {
+    overflow: hidden;
+    background-color: #003366;
+    margin: 20px auto;
+    width: 60%;
+}
+
+.tablinks {
+    float: left;
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+.tablinks:hover {
+    background-color: #001a33;
+}
+
+.tabcontent {
+    display: none;
+    padding: 20px;
+}
+
+form {
+    width: 60%;
+    margin: 20px auto;
+}
+
+label {
+    display: block;
+    margin: 10px 0;
+}
+
+input, textarea {
+    width: 100%;
+    padding: 10px;
+    margin: 5px 0 20px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    box-sizing: border-box;
+}
+
+.blue-button {
+    background-color: #003366;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    cursor: pointer;
+}
+
+.blue-button:hover {
+    background-color: #001a33;
+}

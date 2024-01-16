@@ -1,0 +1,54 @@
+/* Similar structure as styles.css for other pages, with additional styling for tabs and forms */
+body {
+    background-color: #f0f0f0;
+    font-family: Arial, sans-serif;
+}
+
+.tabs {
+    overflow: hidden;
+    background-color: #333;
+}
+
+.tablinks {
+    float: left;
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 16px;
+    cursor: pointer;
+
+    background-color : darkblue; border : none;margin-right : 20px;
+}
+
+.tablinks:hover {
+    background-color: blue;
+    color: black;
+}
+
+.tabcontent {
+    display: none;
+}
+
+form {
+    width: 60%;
+    margin: 20px auto;
+}
+
+label, input, textarea {
+    display: block;
+    margin-bottom: 10px;
+}
+
+.blue-button {
+    background-color: #003366;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    cursor: pointer;
+}
+
+.blue-button:hover {
+    background-color: #001a33;
+}
